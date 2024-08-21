@@ -1,11 +1,9 @@
-import from math import inf
+import math
 
 def divide(first, second):
     if second == 0:
-        return
-
+       return math.inf
     else:
         result_fake = first / second
-        print(result_fake)
+        return result_fake
 
-divide(10,2)
